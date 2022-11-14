@@ -27,5 +27,10 @@ pipeline {
                         echo "Deploying in post Production Area"
                   }
             }
+            stage('post REProduction') {
+                  steps {
+                        echo "Deploying in post REProduction Area"
+                  }
+            }
       }
 }
